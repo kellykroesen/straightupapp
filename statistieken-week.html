@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Statistieken week</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <!-- Load c3.css -->
+    <link href="css/c3.css" rel="stylesheet">
+
+    <!-- Load d3.js and c3.js -->
+    <script src="js/d3.min.js"></script>
+    <script src="js/c3.min.js"></script>
+
+</head>
+<header>
+    <h1>Statistieken</h1>
+</header>
+
+<body>
+    <!-- Tab links -->
+    <a class="dag-uit" href="statistieken.html">Dag</a>
+    <a class="week-aan">Week</a>
+
+
+    <div id="chart"></div>
+
+    <script>
+        var chart = c3.generate({
+            bindto: '#chart',
+            data: {
+                columns: [
+                    ['data1', 30, 200, 100, 400, 150, 250],
+                    ['data2', 50, 20, 10, 40, 15, 25]
+                ],
+                type: 'bar'
+            }
+        });
+
+    </script>
+
+
+
+    <section class="navigation-bar">
+        <ul>
+            <li><a href="informatie.html"><img class="navigation-icon1" src="informatie-icon.png"></a></li>
+            <li><a href="kalibratie.html"><img class="navigation-icon2" src="kalibratie-icon.png"></a></li>
+            <li><a href="meten-uit.html"><img class="navigation-icon3" src="meten-icon.png"></a></li>
+            <li><a href="statistieken.html"><img class="navigation-icon4" src="statistieken-icon-active.png"></a></li>
+            <li><a href="instellingen.html"><img class="navigation-icon5" src="instellingen-icon.png"></a></li>
+        </ul>
+    </section>
+</body>
+
+</html>

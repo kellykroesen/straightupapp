@@ -1,0 +1,466 @@
+/*Onboarding*/
+
+.onboarding {
+    background-color: #5EB1B7;
+}
+
+.logo {
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/*caroussel/*
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    height: 1300px;
+    position: relative;
+    margin: auto;
+}
+
+.image-slider {
+    height: 1200px;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 58px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    margin: 7 20px;
+    margin-right: 15px;
+    margin-top: 140px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.beginnen {
+    background-color: #3E5563;
+    font-size: 3em;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: exo;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+/*header*/
+
+header {
+    background-color: #5EB1B7;
+    height: 150px;
+}
+
+h1 {
+    color: #FFFF;
+    font-family: exo;
+    font-size: 4em;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+
+}
+
+/* Kalibreren */
+
+h2 {
+    color: #3E5563;
+    font-family: exo;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 3em;
+}
+
+.stappenplan {
+    font-family: exo;
+    color: #3E5563;
+    font-size: 1.2em;
+    list-style: none;
+    text-align: center;
+}
+
+.kalibratie {
+    background-color: #5EB1B7;
+    font-size: 3em;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: exo;
+    margin-left: 310px;
+    margin-top: 80px;
+}
+
+.kalibratie-gelukt {
+    background-color: #3E5563;
+    font-size: 3em;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: exo;
+    margin-left: 310px;
+    margin-top: 80px;
+}
+
+h3 {
+    color: #3E5563;
+    font-family: exo;
+    text-align: center;
+    font-size: 2.3em;
+    margin-top: 3em;
+    padding: 4em;
+    padding-top: 0em;
+}
+
+/* Meten */
+
+.meten {
+    margin-left: 160px;
+    margin-top: 50px;
+}
+
+.meten-aan {
+    margin-left: 160px;
+    margin-top: 50px;
+}
+
+.meten-stoppen {
+    background-color: #5EB1B7;
+    font-size: 3em;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: exo;
+    margin-left: 260px;
+    margin-top: 80px;
+}
+
+/* Informatie */
+
+.uitleg-iconen {
+    height: 130px;
+    width: 130px;
+    float: left;
+    margin-right: 85px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.uitleg {
+    font-family: exo;
+    color: #3E5563;
+    font-size: 1.2em;
+    float: right;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+p {
+    margin-top: 70px;
+}
+
+/* Instellingen */
+
+h4 {
+    font-family: exo;
+    color: #3E5563;
+    font-size: 1.2em;
+    margin-top: 90px;
+}
+
+h5 {
+    font-family: exo;
+    color: #979797;
+    font-weight: 200;
+    margin-top: -px;
+}
+
+.instellingen {
+    margin-left: 30px;
+}
+
+
+/* Navigation bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5EB1B7;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+}
+
+li {
+    float: left;
+    font-size: 2em;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 23px;
+    text-decoration: none;
+    font-family: exo;
+}
+
+
+.navigation-icon1 {
+    height: 120px;
+    width: 120px;
+    padding-right: 30px;
+
+}
+
+.navigation-icon2 {
+    height: 120px;
+    width: 120px;
+    padding-right: 30px;
+
+
+}
+
+.navigation-icon3 {
+    height: 120px;
+    width: 120px;
+    padding-right: 30px;
+
+
+}
+
+.navigation-icon4 {
+    height: 120px;
+    width: 120px;
+    padding-right: 30px;
+
+
+}
+
+.navigation-icon5 {
+    height: 120px;
+    width: 120px;
+    padding-right: 30px;
+
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 64px;
+    float: right;
+    margin-top: -160px;
+    margin-right: 40px
+}
+
+.switch2 {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 64px;
+    float: right;
+    margin-top: -110px;
+    margin-right: 40px
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch2 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 46px;
+    width: 46px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #3E5563;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(46px);
+    -ms-transform: translateX(46px);
+    transform: translateX(66px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+.dag-aan {
+    background-color: #3E5563;
+    font-size: 3em;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: exo;
+    margin-left: 310px;
+    margin-top: 80px;
+}
+
+.dag-uit {
+    background-color: white;
+    font-size: 3em;
+    color: #3E5563;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: exo;
+    margin-left: 310px;
+    margin-top: 80px;
+    border: solid 1px #3E5563;
+
+}
+
+.week-uit {
+    background-color: white;
+    font-size: 3em;
+    color: #3E5563;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: exo;
+    margin-top: 80px;
+    border: solid 1px #3E5563;
+}
+
+.week-aan {
+    background-color: #3E5563;
+    font-size: 3em;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: exo;
+    margin-top: 80px;
+}
+
+.c3-event-rect {}
